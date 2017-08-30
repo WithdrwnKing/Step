@@ -12,6 +12,7 @@
 		EA0F5CCF1F56A6C9009ED254 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA0F5CCD1F56A6C9009ED254 /* Main.storyboard */; };
 		EA0F5CD11F56A6C9009ED254 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA0F5CD01F56A6C9009ED254 /* Assets.xcassets */; };
 		EA0F5CD41F56A6C9009ED254 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA0F5CD21F56A6C9009ED254 /* LaunchScreen.storyboard */; };
+		EA0F5CDD1F56AC7C009ED254 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0F5CDC1F56AC7C009ED254 /* SnapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		EA0F5CD01F56A6C9009ED254 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA0F5CD31F56A6C9009ED254 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA0F5CD51F56A6C9009ED254 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA0F5CDC1F56AC7C009ED254 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA0F5CDD1F56AC7C009ED254 /* SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				EA0F5CC81F56A6C9009ED254 /* Step-swift */,
 				EA0F5CC71F56A6C9009ED254 /* Products */,
+				EA0F5CDB1F56AC7C009ED254 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +60,148 @@
 			children = (
 				EA0F5CC91F56A6C9009ED254 /* AppDelegate.swift */,
 				EA0F5CCB1F56A6C9009ED254 /* ViewController.swift */,
+				EA0F5CDF1F56AD81009ED254 /* ViewControllers */,
 				EA0F5CCD1F56A6C9009ED254 /* Main.storyboard */,
 				EA0F5CD01F56A6C9009ED254 /* Assets.xcassets */,
 				EA0F5CD21F56A6C9009ED254 /* LaunchScreen.storyboard */,
 				EA0F5CD51F56A6C9009ED254 /* Info.plist */,
 			);
 			path = "Step-swift";
+			sourceTree = "<group>";
+		};
+		EA0F5CDB1F56AC7C009ED254 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA0F5CDC1F56AC7C009ED254 /* SnapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA0F5CDF1F56AD81009ED254 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EA0F5CE01F56AD81009ED254 /* Login */,
+				EA0F5CE51F56AD81009ED254 /* Main */,
+				EA0F5CEA1F56AD81009ED254 /* Mine */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EA0F5CE01F56AD81009ED254 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EA0F5CE11F56AD81009ED254 /* Controllers */,
+				EA0F5CE21F56AD81009ED254 /* Model */,
+				EA0F5CE31F56AD81009ED254 /* View */,
+				EA0F5CE41F56AD81009ED254 /* ViewModel */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		EA0F5CE11F56AD81009ED254 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EA0F5CE21F56AD81009ED254 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EA0F5CE31F56AD81009ED254 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EA0F5CE41F56AD81009ED254 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EA0F5CE51F56AD81009ED254 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EA0F5CE61F56AD81009ED254 /* Controllers */,
+				EA0F5CE71F56AD81009ED254 /* Model */,
+				EA0F5CE81F56AD81009ED254 /* View */,
+				EA0F5CE91F56AD81009ED254 /* ViewModel */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		EA0F5CE61F56AD81009ED254 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EA0F5CE71F56AD81009ED254 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EA0F5CE81F56AD81009ED254 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EA0F5CE91F56AD81009ED254 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EA0F5CEA1F56AD81009ED254 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				EA0F5CEB1F56AD81009ED254 /* Controllers */,
+				EA0F5CEC1F56AD81009ED254 /* Model */,
+				EA0F5CED1F56AD81009ED254 /* View */,
+				EA0F5CEE1F56AD81009ED254 /* ViewModel */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		EA0F5CEB1F56AD81009ED254 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EA0F5CEC1F56AD81009ED254 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EA0F5CED1F56AD81009ED254 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EA0F5CEE1F56AD81009ED254 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +214,7 @@
 				EA0F5CC21F56A6C9009ED254 /* Sources */,
 				EA0F5CC31F56A6C9009ED254 /* Frameworks */,
 				EA0F5CC41F56A6C9009ED254 /* Resources */,
+				EA0F5CDE1F56ACB5009ED254 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -92,10 +233,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = "王琨";
+				ORGANIZATIONNAME = smg;
 				TargetAttributes = {
 					EA0F5CC51F56A6C9009ED254 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8C3CUAZLUJ;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -130,6 +272,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EA0F5CDE1F56ACB5009ED254 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EA0F5CC21F56A6C9009ED254 /* Sources */ = {
@@ -260,9 +419,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8C3CUAZLUJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "Step-swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wangkun.Step-swift";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smg.Xnews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -272,9 +436,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8C3CUAZLUJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "Step-swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wangkun.Step-swift";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smg.Xnews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
