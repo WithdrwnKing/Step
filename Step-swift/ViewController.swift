@@ -16,7 +16,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
        
-        SVProgressHUD.show(withStatus: "heiheihei")
+        SVProgressHUD.show(withStatus: UserManger.shareManager().token)
+
     }
 
     override func didReceiveMemoryWarning() {

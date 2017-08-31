@@ -33,6 +33,21 @@
 		EA0F5D301F56B2F7009ED254 /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0F5D1A1F56B2F7009ED254 /* UIScrollView+MJExtension.m */; };
 		EA0F5D311F56B2F7009ED254 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0F5D1C1F56B2F7009ED254 /* UIScrollView+MJRefresh.m */; };
 		EA0F5D321F56B2F7009ED254 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0F5D1E1F56B2F7009ED254 /* UIView+MJExtension.m */; };
+		EA55F1431F57A9DF00386144 /* libSocialQQ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA55F1321F57A9DF00386144 /* libSocialQQ.a */; };
+		EA55F1441F57A9DF00386144 /* libSocialSina.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA55F1351F57A9DF00386144 /* libSocialSina.a */; };
+		EA55F1451F57A9DF00386144 /* libSocialWeChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA55F1381F57A9DF00386144 /* libSocialWeChat.a */; };
+		EA55F1461F57A9DF00386144 /* UMSocialCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA55F13B1F57A9DF00386144 /* UMSocialCore.framework */; };
+		EA55F1471F57A9DF00386144 /* UMSocialNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA55F13C1F57A9DF00386144 /* UMSocialNetwork.framework */; };
+		EA55F1481F57A9DF00386144 /* UMSocialSDKPromptResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EA55F13D1F57A9DF00386144 /* UMSocialSDKPromptResources.bundle */; };
+		EA55F1491F57A9DF00386144 /* libUMSocialLog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA55F13F1F57A9DF00386144 /* libUMSocialLog.a */; };
+		EA55F14A1F57A9DF00386144 /* UMSocialSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EA55F1411F57A9DF00386144 /* UMSocialSDKResources.bundle */; };
+		EA55F14B1F57A9DF00386144 /* UShareUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA55F1421F57A9DF00386144 /* UShareUI.framework */; };
+		EA55F14D1F57B6D700386144 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA55F14C1F57B6D700386144 /* AFNetworking.framework */; };
+		EA55F1521F57B6E500386144 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA55F14E1F57B6E500386144 /* RxBlocking.framework */; };
+		EA55F1531F57B6E500386144 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA55F14F1F57B6E500386144 /* RxCocoa.framework */; };
+		EA55F1541F57B6E500386144 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA55F1501F57B6E500386144 /* RxSwift.framework */; };
+		EA55F1551F57B6E500386144 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA55F1511F57B6E500386144 /* RxTest.framework */; };
+		EA55F15B1F57BA7200386144 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA55F15A1F57BA7200386144 /* UserManager.swift */; };
 		EA7254DB1F56BA26003F917E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = EA7254C31F56BA26003F917E /* LICENSE */; };
 		EA7254DC1F56BA26003F917E /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7254C71F56BA26003F917E /* MJExtensionConst.m */; };
 		EA7254DD1F56BA26003F917E /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7254C91F56BA26003F917E /* MJFoundation.m */; };
@@ -44,7 +59,6 @@
 		EA7254E31F56BA26003F917E /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7254D51F56BA26003F917E /* NSObject+MJKeyValue.m */; };
 		EA7254E41F56BA26003F917E /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7254D71F56BA26003F917E /* NSObject+MJProperty.m */; };
 		EA7254E51F56BA26003F917E /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7254D91F56BA26003F917E /* NSString+MJExtension.m */; };
-		EA7254E61F56BA26003F917E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = EA7254DA1F56BA26003F917E /* README.md */; };
 		EA7254E81F56BABE003F917E /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7254E71F56BABE003F917E /* SVProgressHUD.framework */; };
 		EA7254EA1F56BAC5003F917E /* YYKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7254E91F56BAC5003F917E /* YYKit.framework */; };
 /* End PBXBuildFile section */
@@ -98,6 +112,24 @@
 		EA0F5D1C1F56B2F7009ED254 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
 		EA0F5D1D1F56B2F7009ED254 /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
 		EA0F5D1E1F56B2F7009ED254 /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
+		EA55F1321F57A9DF00386144 /* libSocialQQ.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialQQ.a; sourceTree = "<group>"; };
+		EA55F1331F57A9DF00386144 /* UMSocialQQHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialQQHandler.h; sourceTree = "<group>"; };
+		EA55F1351F57A9DF00386144 /* libSocialSina.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialSina.a; sourceTree = "<group>"; };
+		EA55F1361F57A9DF00386144 /* UMSocialSinaHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSinaHandler.h; sourceTree = "<group>"; };
+		EA55F1381F57A9DF00386144 /* libSocialWeChat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialWeChat.a; sourceTree = "<group>"; };
+		EA55F1391F57A9DF00386144 /* UMSocialWechatHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialWechatHandler.h; sourceTree = "<group>"; };
+		EA55F13B1F57A9DF00386144 /* UMSocialCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMSocialCore.framework; sourceTree = "<group>"; };
+		EA55F13C1F57A9DF00386144 /* UMSocialNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMSocialNetwork.framework; sourceTree = "<group>"; };
+		EA55F13D1F57A9DF00386144 /* UMSocialSDKPromptResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKPromptResources.bundle; sourceTree = "<group>"; };
+		EA55F13F1F57A9DF00386144 /* libUMSocialLog.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMSocialLog.a; sourceTree = "<group>"; };
+		EA55F1411F57A9DF00386144 /* UMSocialSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKResources.bundle; sourceTree = "<group>"; };
+		EA55F1421F57A9DF00386144 /* UShareUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UShareUI.framework; sourceTree = "<group>"; };
+		EA55F14C1F57B6D700386144 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = Carthage/Build/iOS/AFNetworking.framework; sourceTree = "<group>"; };
+		EA55F14E1F57B6E500386144 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		EA55F14F1F57B6E500386144 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		EA55F1501F57B6E500386144 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		EA55F1511F57B6E500386144 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
+		EA55F15A1F57BA7200386144 /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		EA7254C01F56B788003F917E /* Step-swift+bridging+Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Step-swift+bridging+Header.h"; sourceTree = "<group>"; };
 		EA7254C31F56BA26003F917E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		EA7254C51F56BA26003F917E /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
@@ -121,7 +153,6 @@
 		EA7254D71F56BA26003F917E /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
 		EA7254D81F56BA26003F917E /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
 		EA7254D91F56BA26003F917E /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
-		EA7254DA1F56BA26003F917E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EA7254E71F56BABE003F917E /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = Carthage/Build/iOS/SVProgressHUD.framework; sourceTree = "<group>"; };
 		EA7254E91F56BAC5003F917E /* YYKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YYKit.framework; path = Carthage/Build/iOS/YYKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -131,9 +162,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA55F1461F57A9DF00386144 /* UMSocialCore.framework in Frameworks */,
+				EA55F1431F57A9DF00386144 /* libSocialQQ.a in Frameworks */,
+				EA55F1541F57B6E500386144 /* RxSwift.framework in Frameworks */,
+				EA55F1531F57B6E500386144 /* RxCocoa.framework in Frameworks */,
 				EA0F5CDD1F56AC7C009ED254 /* SnapKit.framework in Frameworks */,
+				EA55F1491F57A9DF00386144 /* libUMSocialLog.a in Frameworks */,
+				EA55F14B1F57A9DF00386144 /* UShareUI.framework in Frameworks */,
+				EA55F1441F57A9DF00386144 /* libSocialSina.a in Frameworks */,
+				EA55F1551F57B6E500386144 /* RxTest.framework in Frameworks */,
+				EA55F1471F57A9DF00386144 /* UMSocialNetwork.framework in Frameworks */,
 				EA7254E81F56BABE003F917E /* SVProgressHUD.framework in Frameworks */,
+				EA55F1451F57A9DF00386144 /* libSocialWeChat.a in Frameworks */,
 				EA7254EA1F56BAC5003F917E /* YYKit.framework in Frameworks */,
+				EA55F14D1F57B6D700386144 /* AFNetworking.framework in Frameworks */,
+				EA55F1521F57B6E500386144 /* RxBlocking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,6 +205,8 @@
 			children = (
 				EA0F5CC91F56A6C9009ED254 /* AppDelegate.swift */,
 				EA0F5CCB1F56A6C9009ED254 /* ViewController.swift */,
+				EA55F1561F57B9DD00386144 /* Base */,
+				EA55F1571F57BA1900386144 /* Utils-swift */,
 				EA0F5CDF1F56AD81009ED254 /* ViewControllers */,
 				EA0F5CEF1F56B2F7009ED254 /* Thrid */,
 				EA0F5CCD1F56A6C9009ED254 /* Main.storyboard */,
@@ -176,6 +221,11 @@
 		EA0F5CDB1F56AC7C009ED254 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EA55F14E1F57B6E500386144 /* RxBlocking.framework */,
+				EA55F14F1F57B6E500386144 /* RxCocoa.framework */,
+				EA55F1501F57B6E500386144 /* RxSwift.framework */,
+				EA55F1511F57B6E500386144 /* RxTest.framework */,
+				EA55F14C1F57B6D700386144 /* AFNetworking.framework */,
 				EA7254E91F56BAC5003F917E /* YYKit.framework */,
 				EA7254E71F56BABE003F917E /* SVProgressHUD.framework */,
 				EA0F5CDC1F56AC7C009ED254 /* SnapKit.framework */,
@@ -313,6 +363,7 @@
 		EA0F5CEF1F56B2F7009ED254 /* Thrid */ = {
 			isa = PBXGroup;
 			children = (
+				EA55F12E1F57A9DF00386144 /* UMengUShare */,
 				EA7254C21F56BA26003F917E /* MJExtension */,
 				EA0F5CF01F56B2F7009ED254 /* MJRefresh */,
 			);
@@ -414,12 +465,109 @@
 			path = Header;
 			sourceTree = "<group>";
 		};
+		EA55F12E1F57A9DF00386144 /* UMengUShare */ = {
+			isa = PBXGroup;
+			children = (
+				EA55F12F1F57A9DF00386144 /* UShareSDK */,
+			);
+			path = UMengUShare;
+			sourceTree = "<group>";
+		};
+		EA55F12F1F57A9DF00386144 /* UShareSDK */ = {
+			isa = PBXGroup;
+			children = (
+				EA55F1301F57A9DF00386144 /* SocialLibraries */,
+				EA55F13A1F57A9DF00386144 /* UMSocialSDK */,
+				EA55F13E1F57A9DF00386144 /* UMSocialSDKPlugin */,
+				EA55F1401F57A9DF00386144 /* UMSocialUI */,
+			);
+			path = UShareSDK;
+			sourceTree = "<group>";
+		};
+		EA55F1301F57A9DF00386144 /* SocialLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				EA55F1311F57A9DF00386144 /* QQ */,
+				EA55F1341F57A9DF00386144 /* Sina */,
+				EA55F1371F57A9DF00386144 /* WeChat */,
+			);
+			path = SocialLibraries;
+			sourceTree = "<group>";
+		};
+		EA55F1311F57A9DF00386144 /* QQ */ = {
+			isa = PBXGroup;
+			children = (
+				EA55F1321F57A9DF00386144 /* libSocialQQ.a */,
+				EA55F1331F57A9DF00386144 /* UMSocialQQHandler.h */,
+			);
+			path = QQ;
+			sourceTree = "<group>";
+		};
+		EA55F1341F57A9DF00386144 /* Sina */ = {
+			isa = PBXGroup;
+			children = (
+				EA55F1351F57A9DF00386144 /* libSocialSina.a */,
+				EA55F1361F57A9DF00386144 /* UMSocialSinaHandler.h */,
+			);
+			path = Sina;
+			sourceTree = "<group>";
+		};
+		EA55F1371F57A9DF00386144 /* WeChat */ = {
+			isa = PBXGroup;
+			children = (
+				EA55F1381F57A9DF00386144 /* libSocialWeChat.a */,
+				EA55F1391F57A9DF00386144 /* UMSocialWechatHandler.h */,
+			);
+			path = WeChat;
+			sourceTree = "<group>";
+		};
+		EA55F13A1F57A9DF00386144 /* UMSocialSDK */ = {
+			isa = PBXGroup;
+			children = (
+				EA55F13B1F57A9DF00386144 /* UMSocialCore.framework */,
+				EA55F13C1F57A9DF00386144 /* UMSocialNetwork.framework */,
+				EA55F13D1F57A9DF00386144 /* UMSocialSDKPromptResources.bundle */,
+			);
+			path = UMSocialSDK;
+			sourceTree = "<group>";
+		};
+		EA55F13E1F57A9DF00386144 /* UMSocialSDKPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				EA55F13F1F57A9DF00386144 /* libUMSocialLog.a */,
+			);
+			path = UMSocialSDKPlugin;
+			sourceTree = "<group>";
+		};
+		EA55F1401F57A9DF00386144 /* UMSocialUI */ = {
+			isa = PBXGroup;
+			children = (
+				EA55F1411F57A9DF00386144 /* UMSocialSDKResources.bundle */,
+				EA55F1421F57A9DF00386144 /* UShareUI.framework */,
+			);
+			path = UMSocialUI;
+			sourceTree = "<group>";
+		};
+		EA55F1561F57B9DD00386144 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		EA55F1571F57BA1900386144 /* Utils-swift */ = {
+			isa = PBXGroup;
+			children = (
+				EA55F15A1F57BA7200386144 /* UserManager.swift */,
+			);
+			path = "Utils-swift";
+			sourceTree = "<group>";
+		};
 		EA7254C21F56BA26003F917E /* MJExtension */ = {
 			isa = PBXGroup;
 			children = (
 				EA7254C31F56BA26003F917E /* LICENSE */,
 				EA7254C41F56BA26003F917E /* MJExtension */,
-				EA7254DA1F56BA26003F917E /* README.md */,
 			);
 			path = MJExtension;
 			sourceTree = "<group>";
@@ -514,9 +662,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA0F5CD41F56A6C9009ED254 /* LaunchScreen.storyboard in Resources */,
+				EA55F1481F57A9DF00386144 /* UMSocialSDKPromptResources.bundle in Resources */,
 				EA0F5CD11F56A6C9009ED254 /* Assets.xcassets in Resources */,
 				EA0F5D2D1F56B2F7009ED254 /* MJRefresh.bundle in Resources */,
 				EA0F5CCF1F56A6C9009ED254 /* Main.storyboard in Resources */,
+				EA55F14A1F57A9DF00386144 /* UMSocialSDKResources.bundle in Resources */,
 				EA7254DB1F56BA26003F917E /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -533,6 +683,11 @@
 				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/SVProgressHUD.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/YYKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AFNetworking.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxTest.framework",
 			);
 			outputPaths = (
 			);
@@ -556,6 +711,7 @@
 				EA0F5D1F1F56B2F7009ED254 /* MJRefreshAutoFooter.m in Sources */,
 				EA7254E41F56BA26003F917E /* NSObject+MJProperty.m in Sources */,
 				EA0F5D291F56B2F7009ED254 /* MJRefreshBackStateFooter.m in Sources */,
+				EA55F15B1F57BA7200386144 /* UserManager.swift in Sources */,
 				EA0F5D2E1F56B2F7009ED254 /* MJRefreshConst.m in Sources */,
 				EA0F5D261F56B2F7009ED254 /* MJRefreshAutoStateFooter.m in Sources */,
 				EA0F5D211F56B2F7009ED254 /* MJRefreshComponent.m in Sources */,
@@ -569,7 +725,6 @@
 				EA0F5D2B1F56B2F7009ED254 /* MJRefreshNormalHeader.m in Sources */,
 				EA0F5D271F56B2F7009ED254 /* MJRefreshBackGifFooter.m in Sources */,
 				EA0F5D201F56B2F7009ED254 /* MJRefreshBackFooter.m in Sources */,
-				EA7254E61F56BA26003F917E /* README.md in Sources */,
 				EA0F5D251F56B2F7009ED254 /* MJRefreshAutoNormalFooter.m in Sources */,
 				EA0F5CCA1F56A6C9009ED254 /* AppDelegate.swift in Sources */,
 				EA7254DE1F56BA26003F917E /* MJProperty.m in Sources */,
@@ -704,12 +859,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8C3CUAZLUJ;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Step-swift/Thrid/UMengUShare/UShareSDK/UMSocialSDK",
+					"$(PROJECT_DIR)/Step-swift/Thrid/UMengUShare/UShareSDK/UMSocialUI",
 				);
 				INFOPLIST_FILE = "Step-swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Step-swift/Thrid/UMengUShare/UShareSDK/SocialLibraries/QQ",
+					"$(PROJECT_DIR)/Step-swift/Thrid/UMengUShare/UShareSDK/SocialLibraries/Sina",
+					"$(PROJECT_DIR)/Step-swift/Thrid/UMengUShare/UShareSDK/SocialLibraries/WeChat",
+					"$(PROJECT_DIR)/Step-swift/Thrid/UMengUShare/UShareSDK/UMSocialSDKPlugin",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.smg.Xnews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "/Users/wangkun/SMG/Step-swift/Step-swift/Step-swift+bridging+Header.h";
@@ -722,12 +887,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8C3CUAZLUJ;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Step-swift/Thrid/UMengUShare/UShareSDK/UMSocialSDK",
+					"$(PROJECT_DIR)/Step-swift/Thrid/UMengUShare/UShareSDK/UMSocialUI",
 				);
 				INFOPLIST_FILE = "Step-swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Step-swift/Thrid/UMengUShare/UShareSDK/SocialLibraries/QQ",
+					"$(PROJECT_DIR)/Step-swift/Thrid/UMengUShare/UShareSDK/SocialLibraries/Sina",
+					"$(PROJECT_DIR)/Step-swift/Thrid/UMengUShare/UShareSDK/SocialLibraries/WeChat",
+					"$(PROJECT_DIR)/Step-swift/Thrid/UMengUShare/UShareSDK/UMSocialSDKPlugin",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.smg.Xnews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "/Users/wangkun/SMG/Step-swift/Step-swift/Step-swift+bridging+Header.h";
